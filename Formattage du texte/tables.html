@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        Les Tables
+        ----------
+
+        TABLE
+        TR
+        TD   TH  colspan rowspan
+        CAPTION
+
+        THEAD
+        TBODY
+        TFOOT
+    -->
+    <h1>Les tables</h1>
+
+    <h2>Une table simple qui devient complexe</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure saepe quas soluta quis doloribus enim, perspiciatis illo quibusdam architecto esse reiciendis harum voluptate autem possimus deleniti fugiat nobis necessitatibus vel.</p>
+    <table border="1">
+        <caption>Un exemple de tableau</caption>
+        <tr>
+            <th>Un texte</th><th>Un chiffre</th><th>Un prénom</th><th>Du texte</th>
+        </tr>
+
+        <tr>
+            <td>Ici une donnée de la table</td><td>150,23</td><td>Marc</td><td>HTML en pratique</td>
+        </tr>
+        <tr>
+            <td>Nouvel exemple</td>
+            <td rowspan="2">3</td>
+            <td>Jacques</td>
+            <td>Dernière colonne</td>
+        </tr>
+        <tr>
+            <td>Bonjour</td>
+
+            <td>Yves</td>
+            <td>CSS plus tard</td>
+        </tr>
+        <tr><td>La planète</td><td colspan="2">2</td><td>Charles</td></tr>
+    </table>
+    
+    <h2>Un exemple de table complet</h2>
+
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+            </tr>
+            <tr><td>Augier</td><td>Marc</td></tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Enfaillite</td>
+                <td>Mélusine</td>
+            </tr>
+            <tr><td>Menvussa</td><td>Gérard</td></tr>
+            <tr><td>Célaiyre</td><td>Jacques</td></tr>
+        </tbody>
+
+        <tfoot>
+            <tr><th>Ici</th><th>ou là</th></tr>
+            <tr><td>La fin</td><td>du tableau</td></tr>
+        </tfoot>
+    </table>
+</body>
+</html>
