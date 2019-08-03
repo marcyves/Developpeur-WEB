@@ -12,14 +12,16 @@
         --------------------
 
             Les listes à point
-            UL
-            LI
+                UL
+                    LI
             Les listes ordonnées
-            OL
+                OL
+                    LI 
+                    type
             Les listes de description
-            DL
-            DT
-            DD
+                DL
+                    DT
+                    DD
     -->
     <h1>Les listes avec <abbr>HTML</abbr></h1>
 
@@ -58,15 +60,21 @@
             <li type="I">Et un petit dernier</li>
         </ol>
     
+    <ol start="20">
+        <li>Un premier élément</li>
+        <li type="1">Un intrus</li>
+        <li>Un autre</li>
+        <li>Et un petit dernier</li>
+    </ol>
+
     <h2>Les listes de description</h2>
 
     <dl>
+        <dt>Café</dt>
+        <dd>Boisson chaude et tonifiante</dd>
         <dt>HTML</dt>
-        <dd>Hypertext Markup Language, langage de description des pages Web.</dd>
-        <dt>Balises</dt>
-        <dd>Nom donné aux éléments du langage HTML, il y a des balises avec contenu, ouvrante 
-            et fermante. D'autres qui apparaissent une seule fois pour exercer un effet ponctuel.</dd>
-    </dl>
+        <dd>Hypertext Markup Language, le langage du Web</dd>
+    </dl>     
 
 </body>
 </html>
