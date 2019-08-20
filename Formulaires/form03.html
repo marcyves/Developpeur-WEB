@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Les formulaires</title>
+</head>
+<body>
+    <!--
+        Les formulaires HTML
+        --------------------
+
+        Tout ce qu'il est possible de faire  avec un formulaire
+        
+    -->
+    <h1>Les formulaires</h1>
+
+    <form action="suite.html" method="get">
+        <h2>Démo de tout ce qu'on peut faire dans un formulaire</h2>
+        <fieldset>
+            <legend>Vos données personnelles</legend>
+            Votre nom : <input type="text" placeholder="nom ?" name="nom_user">
+            <br>
+            Votre prénom : <input type="text" name="prenom_user"> 
+            <br>       
+            Votre mot de passe : <input type="password" name="mot_de_passe">
+            <br>
+            <textarea name="zone" cols="30" rows="10"></textarea>
+            <br>
+            <input type="radio" name="couleur" value="bleu"> La couleur bleue 
+            <br>
+            <input type="radio" name="couleur" value="vert"> Pourquoi pas vert 
+            <br>
+            <input type="radio" name="couleur" value="rouge" checked> Rouge 
+            <br>
+            <input type="checkbox" name="standard" checked> Standard
+            <input type="checkbox" name="famille" > Famille
+            <br>
+            Moyen de locomotion :
+            <select name="vehicule" size=6 multiple>
+                <optgroup label="terrestre">
+                        <option value="1">Automobile</option>
+                        <option value="velo">Bicyclette</option>        
+                </optgroup>
+                <optgroup label="maritime">
+                        <option value="2" selected>Bateau</option>
+                </optgroup>
+                <optgroup label="aérien">
+                        <option value="3">Avion</option>
+                </optgroup>
+            </select>
+            <br>
+            <input type="submit" value="Ok">
+            <input type="reset" value="KO">
+        </fieldset>
+    </form>
+
+</body>
+</html>

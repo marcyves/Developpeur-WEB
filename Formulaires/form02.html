@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Les formulaires</title>
+</head>
+<body>
+    <!--
+        Les formulaires HTML
+        --------------------
+
+        Passage de paramètres vers un deuxième document
+        
+    -->
+    <h1>Les formulaires</h1>
+
+    <form action="suite.html" method="get">
+        <h2>Démo de la méthode GET</h2>
+        Votre nom : <input type="text" placeholder="nom ?" name="nom_user">
+        <br>
+        Votre prénom : <input type="text" name="prenom_user">
+        <input type="submit" value="Ok">
+    </form>
+
+    <form action="suite.html" method="post">
+        <h2>Démo de la méthode POST</h2>
+        Votre nom : <input type="text" placeholder="nom ?" name="nom_user">
+        <br>
+        Votre prénom : <input type="text" name="prenom_user">
+        <input type="submit" value="Ok">
+    </form>
+
+</body>
+</html>
