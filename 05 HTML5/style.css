@@ -10,17 +10,20 @@ header{
                 10px 20px 80px 12px blue;
     
     background-color: #566d78;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 main{
     background-color: rgba(127, 242, 255, 0.7);
     margin: 2pt 28pt 0pt 28pt;
     padding: 1em 6em 1em 6em;
+    font-family: 'Dancing Script', cursive;
 }
 footer{
     margin: 2pt 28pt 0pt 28pt;
     padding: 1em 6em 1em 6em;
-
     background-color: dimgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body{
     background-color: deepskyblue;
@@ -32,6 +35,11 @@ h1, h2{
     background-color: rgb(65, 9, 68);
     border-radius: 6px;
 }
+h1{
+    font-style: italic;
+    font-size: 38px;
+    font-weight: normal;
+}
 h2{
     padding: 8px;
 }
@@ -39,4 +47,5 @@ p{
     background-color: white;
     padding: 1em;
     border-radius: 8px;
+    font-weight: bolder;
 }
