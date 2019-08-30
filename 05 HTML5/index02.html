@@ -11,17 +11,33 @@
 <body>
     <header>
        <h1>Le titre du site</h1>
+       Ceci est une page de démonstration des possibilités de HTML 5 et CSS 3
        <nav>
-           <ul>
+           <ul id="menu">
                 <li><a href="index.html">Index 1</a></li>
-                <li><a href="index02.html">Index 2</a></li>
-            </ul>
+                <li><a href="index02.html" class="active">Index 2</a>
+                    <ul>
+                        <li><a href="photo.html">Photos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </li>
+        </ul>
        </nav>
     </header>
     <main>
-        <h2>Voici le sous titre de la page 2</h2>
-        <p>Voici le contenu du site...</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ducimus aspernatur maiores eveniet voluptate consequuntur? Ab esse vel dolor molestias repellendus beatae saepe. Modi quidem cupiditate mollitia, quaerat fuga voluptates.</p>
+        <section id="contenu">
+                <h1 class="titre">Voici la page index 2</h1>
+                <h2 id="bleu">Voici le sous titre de la page 2</h2>
+                <p>Voici le contenu du site...</p>
+                <h2>Et un second paragraphe</h2>
+                <p id="bleu">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ducimus aspernatur maiores eveniet voluptate consequuntur? Ab esse vel dolor molestias repellendus beatae saepe. Modi quidem cupiditate mollitia, quaerat fuga voluptates.</p>                    
+        </section>
+        <section>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus recusandae aliquid quasi odio tempore doloribus, incidunt voluptatem assumenda, voluptatibus nisi eum, quibusdam vel inventore accusamus quod rem eius nam corrupti.
+            </p>
+            <p>Tout ça est finalement pas si compliqué</p>
+        </section>
     </main>
     <footer>
         (c) 2019 Marc Augier

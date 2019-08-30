@@ -9,10 +9,60 @@ header{
     box-shadow: 8px 12px 60px 8px red,
                 10px 20px 80px 12px blue;
     
+    color: black;
     background-color: #566d78;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+/* 
+    Définition du menu de navigation
+*/
+
+nav ul{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    text-align: left;
+}
+nav #menu li{
+    display: inline-block;
+}
+nav #menu ul li{
+    display: inherit;
+}
+nav a{
+    text-decoration: none;
+    padding: 10pt 20pt;
+    color: black;
+    display: block;
+    background-color: coral;
+    border-radius: 12pt 12pt 0 0 ;
+}
+nav a.active{
+    color:red;
+}
+nav a:hover{
+    background-color: beige;
+}
+nav #menu ul{
+    position: absolute;
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+nav #menu ul a{
+    border-radius: 0;
+    background-color: beige;
+}
+nav #menu ul a:hover{
+    background-color: coral;
+}
+nav #menu li:hover ul{
+    left: auto;
+}
+/* 
+    La zone de contenu
+*/
 main{
     background-color: rgba(127, 242, 255, 0.7);
     margin: 2pt 28pt 0pt 28pt;
@@ -37,8 +87,11 @@ h1, h2{
 }
 h1{
     font-style: italic;
-    font-size: 38px;
+    font-size: 34px;
     font-weight: normal;
+}
+header h1{
+    font-size: 60px;
 }
 h2{
     padding: 8px;
@@ -49,3 +102,27 @@ p{
     border-radius: 8px;
     font-weight: bolder;
 }
+main p#bleu{
+    color:blue;
+    background-color: rgb(189, 44, 177);
+    border-radius: 20px;
+}
+/* ici une définition qui nous intriguera quand nous devrons revenir sur le code */
+#bleu{
+    color:red;
+}
+
+main h1.titre{
+    text-align: center;
+}
+
+section{
+    padding: 12px;
+}
+#contenu{
+    background-color: darksalmon;
+}
+#contenu p{
+    background-color: aquamarine;
+}
+
