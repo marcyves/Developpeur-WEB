@@ -1,0 +1,201 @@
+/*
+
+style.css de la Pizzeria Da Pipo
+
+(c) marc augier 2019
+
+*/
+.description{
+	text-align: center;
+	display: inline-table;
+	margin: 10pt 20pt 0 20pt;;
+	padding: 0 12px 0 12px;
+	font-size: large;
+}
+.pizza {
+	text-align: center;
+	display: inline-table;
+	background-color: black;
+	color: white;
+	margin: 5%;
+	padding: 8px;
+	width: 20%;
+	border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+              0 3px 5px rgba(0, 0, 0, .2),
+              0 5px 10px rgba(0, 0, 0, .2),
+              0 20px 20px rgba(0, 0, 0, .15);
+}
+.pizza img{
+	width:180px;
+	height:180px;
+}
+.pizza a {
+	color: white;
+	text-decoration: none;
+	font-size: large;
+}
+
+.pizzadetail {
+	background-color: white;
+	color: #645aff;
+	margin: 5%;
+	padding: 8px;
+	width: 80%;
+	border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+              0 3px 5px rgba(0, 0, 0, .2),
+              0 5px 10px rgba(0, 0, 0, .2),
+              0 20px 20px rgba(0, 0, 0, .15);
+}
+
+.pizzadetail a {
+	position: relative;
+  top: 0px;
+	left:  0px;
+  background-color: #e7e7e7;
+		border-radius: 12px;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.pizzadetail a:hover {
+    background-color: #7e7e7e;
+    color: white;
+		border: 3px;
+}
+
+.vignette{
+	float: left;
+  margin-right: 30px;
+	border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+              0 3px 5px rgba(0, 0, 0, .2),
+              0 5px 10px rgba(0, 0, 0, .2),
+              0 20px 20px rgba(0, 0, 0, .15);
+}
+
+.onecd h2 {
+	padding: 10px;
+}
+/*
+    balises HTML
+*/
+body {
+    background-color: white;
+	background-image: url(bandiera.png);
+}
+
+/* 
+    Définition du menu de navigation
+*/
+nav {
+    background: linear-gradient(green, white);
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+                0 3px 5px rgba(0, 0, 0, .2),
+                0 5px 10px rgba(0, 0, 0, .2),
+                0 20px 20px rgba(0, 0, 0, .15);
+      text-align: center;
+      margin: 5%;
+      padding: 5px;
+      width: 90%;
+}
+  
+nav ul{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    text-align: left;
+}
+nav #menu li{
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    padding: 10pt 20pt;
+    color: white;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 2pt ;
+}
+nav a.active{
+    color:red;
+}
+nav a:hover{
+    background-color: white;
+    color:black;
+}
+nav #menu ul a{
+    border-radius: 0;
+    background-color: beige;
+}
+/* HTML 5 */
+header {
+	background-color: rgba(255, 255, 255, 0.6);
+	margin: 5%;
+	padding: 5px;
+	width: 90%;
+	text-align: center;
+	border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+              0 3px 5px rgba(0, 0, 0, .2),
+              0 5px 10px rgba(0, 0, 0, .2),
+              0 20px 20px rgba(0, 0, 0, .15);
+	font-family: 'Lobster', cursive;
+}
+
+header h1{
+	color: #645aff;
+	font-size: 80px;
+}
+
+
+main {
+	background-color: white;
+	margin: 5%;
+	padding: 5px;
+	width: 90%;
+	border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+              0 3px 5px rgba(0, 0, 0, .2),
+              0 5px 10px rgba(0, 0, 0, .2),
+              0 20px 20px rgba(0, 0, 0, .15);
+}
+
+footer {
+    background: linear-gradient(white, red);
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+              0 3px 5px rgba(0, 0, 0, .2),
+              0 5px 10px rgba(0, 0, 0, .2),
+              0 20px 20px rgba(0, 0, 0, .15);
+	text-align: center;
+	margin: 5%;
+	padding: 5px;
+	width: 90%;
+}
+
+form {
+	background-color: rgba(140, 120, 100, 0.5);
+	width: 60%;
+}
+
+input[type=text] {
+	padding: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+	background-color: #5B6AC6;
+  color: white;
+}
+input[type="text"]:focus,
+input[type="text"].focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
