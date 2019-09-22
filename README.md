@@ -20,4 +20,4 @@ Ces documents accompagnent un cours en ligne de [Développement Web](https://www
 
 ## Exemple de réalisation
     - Le projet "Pizzeria" tel qu'expliqué dans le cours en ligne a donné lieu à une solution personnelle.
-    Ce n'est pas LA bonne solution, c'est juste l'occasion de vous donner un exemple d'un mini site complet et du code qui va avec, une source d'inspiration uniquement.
+    Ce n'est pas LA bonne solution, c'est juste l'occasion de vous donner un exemple d'un mini site complet et du code qui va avec, une source d'inspiration.
