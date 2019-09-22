@@ -1,7 +1,9 @@
 # HTML
 ## Tout ce que vous avez voulu apprendre sur HTML et que votre mère ne vous a pas dit
 
-Ces documents accompagnent un cours en ligne de [Développement Web](http://www.udemy.com) dont voici le programme avec les fichiers en correspondance.
+Ces documents accompagnent un cours en ligne de [Développement Web](https://www.udemy.com/course/developpement-web-par-la-pratique/?couponCode=MXAGIT). Ce lien vous propose de vous inscrire avec un tarif promotionnel.
+
+### Programme du cours et fichiers correspondants.
 
 ## Les bases
     - Bases/index.html
