@@ -1,0 +1,18 @@
+ceci est modifié sur le master
+ceci est modifié en local
+voici quelque chose de différent
+
+<<<<<<< HEAD
+// après la création de la branche experiment
+Je fais une modification dans le master
+
+// modif master 1
+// modif master 2
+=======
+// Modification de la branche experiment
+Hop
+
+// deuxième modif
+// troisième modif
+// quat modif
+>>>>>>> experiment

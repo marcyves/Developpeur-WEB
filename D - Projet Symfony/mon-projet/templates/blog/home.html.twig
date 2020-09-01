@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+<h1>{{ title }}</h1>
+{% if age > 18 %}
+	<p>Tu es majeur</p>
+{% else %}
+	<p>Tu es mineur</p>
+{% endif %}
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed vestibulum augue. Proin rutrum libero vel placerat suscipit. Duis at libero vitae neque vehicula aliquam a eu tortor. In molestie metus quis enim imperdiet posuere. Vivamus lacinia consectetur luctus. Donec ullamcorper et ligula vel rhoncus. Curabitur gravida mattis turpis facilisis malesuada. Nunc maximus lacinia urna, sit amet dictum massa porta quis.</p>
+{% endblock %}

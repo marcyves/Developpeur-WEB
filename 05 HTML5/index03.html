@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tests CSS</title>
+    <style>
+        body{
+            background-image: url("millau.jpg");
+            background-repeat: no-repeat;
+        }
+
+        /* image sous le contenu principal */
+        main{
+            padding: 8em;
+            margin: 2em ;
+
+            color:white;
+
+            border-radius: 8px 8px 8px 8px; 
+
+            background-image: url("image.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-clip: border-box;
+        }
+        main p {
+          padding: 2em;
+          margin: 2em ;
+          font-size: 20px;
+          border-radius: 8px 8px 8px 8px; 
+          background-color: rgba(120, 120, 120, 0.6)
+        }
+
+/* menu */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+                <li><a class="active" href="">un</a></li>
+                <li><a href="">deux</a></li>
+                <li><a href="">trois</a></li>
+            </ul>
+    </nav>
+    <main>
+            <h1>Ceci est un site </h1>
+    
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea mollitia corporis unde, optio id, illum maiores quidem qui neque, quibusdam cumque. Voluptatum, rem tenetur. Dolorum nihil possimus odit veritatis laboriosam.</p>        
+    </main>
+    
+</body>
+</html>

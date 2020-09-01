@@ -1,0 +1,10 @@
+Ceci est la ligne 0 d'un autre texte
+Ceci est la ligne 1 d'un autre texte
+Ceci est la ligne 2 d'un autre texte
+Ceci est la ligne 3 d'un autre texte
+Ceci est la ligne 4 d'un autre texte
+Ceci est la ligne 5 d'un autre texte
+Ceci est la ligne 6 d'un autre texte
+Ceci est la ligne 7 d'un autre texte
+Ceci est la ligne 8 d'un autre texte
+Ceci est la ligne 9 d'un autre texte
