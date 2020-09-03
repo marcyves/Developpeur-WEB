@@ -6,15 +6,44 @@ J'ai rassemblé dans ce repository les documents qui accompagnent mes cours, que
 
 Par conséquence, il y a beaucoup de choses. Sans doute plus que celles dont vous avez besoin si vous êtes venu pour un cours spécifique. Vous trouverez donc ci dessous un sommaire pour retrouver les ressources spéciifques à votre cours.
 
-## Cours en ligne
+## Sommaire détaillé
 
+<a name="sommaire"></a>
+
+### Exercices de cours
+
+* `00 Git` Un bac à sable pour manipuler git
+
+#### Les dossiers du cours [Développement Web](#dev-web)
+
+* `01 Bases`
+* `02 Formattage du texte`
+* `03 Liens et images`
+* `04 Formulaires`
+* `05 HTML5`pour les bases
+
+* `06 PHP Vanilla` plusieurs exemples de code
+
+### Mini projets
+
+* `A - Projet Pizzeria HTML` un mini site statique pour présenter une pizzeria
+* `A - Projet Pizzeria PHP` un mini site dynamique pour présenter une pizzeria
+* `B - Morpion` un jeu de Morpion perfectible
+* `C - Projet Stelar` utilisation d'un template HTML
+* `D - Projet Symfony` comme son nom l'indique, démo de code
+* `E - Projet Angular ng7` mes expérimentations avec le tutoriel Angular
+* `E - Projet Angular todo-app` Une appli Angular
+
+## les Cours
+
+<a name="cours"></a>
     Avec un lien pour vous inscrire avec un tarif promotionnel
 
-* [Développement Web](https://www.udemy.com/course/developpement-web-par-la-pratique/?referralCode=F83C08B0B7AFEFD400E0)
+### [Développement Web](https://www.udemy.com/course/developpement-web-par-la-pratique/?referralCode=F83C08B0B7AFEFD400E0)
 
-### Programme du cours et dossiers correspondants
+<a name="dev-web"></a>
 
-#### HTML
+#### Programme du cours et dossiers correspondants
 
 ##### Les bases **`01 Bases`**
 
@@ -41,28 +70,11 @@ Par conséquence, il y a beaucoup de choses. Sans doute plus que celles dont vou
 
 Ces quelques exemples de code ont, sont et seront utilisés pour accompagner mes cours de développement Web.
 
-## Sommaire détaillé
-
-### Exercices de cours
-* `00 Git` Un bac à sable pour manipuler git
-* `01 Bases`
-* `02 Formattage du texte`
-* `03 Liens et images`
-* `04 Formulaires`
-* `05 HTML5`pour les bases
-* `06 PHP Vanilla` plusieurs exemples de code
-
-### Mini projets
-
-* `A - Projet Pizzeria HTML` un mini site statique pour présenter une pizzeria
-* `A - Projet Pizzeria PHP` un mini site dynamique pour présenter une pizzeria
-* `B - Morpion` un jeu de Morpion perfectible
-* `C - Projet Stelar` utilisation d'un template HTML
-* `D - Projet Symfony` comme son nom l'indique, démo de code
-* `E - Projet Angular ng7` mes expérimentations avec le tutoriel Angular
-* `E - Projet Angular todo-app` Une appli Angular
+[Sommaire](#sommaire)
 
 ## Liens utiles
+
+<a name="liens"></a>
 
 ### PHP
 
@@ -80,10 +92,11 @@ Ces quelques exemples de code ont, sont et seront utilisés pour accompagner mes
 ### Javascript
 
     - [JQuery](https://jquery.com/)
-
     - [Web developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)
     - [Javascript from scratch](https://github.com/naomihauret/js-stack-from-scratch/)
     - [Tutoriel Angular](https://www.dropbox.com/s/ad1va8ia9blf9mi/Capture%20d%27%C3%A9cran%202019-07-11%2020.44.57.png?dl=0)
+
+[Sommaire](#sommaire)
 
 ## Notice
 
