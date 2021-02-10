@@ -98,6 +98,9 @@ Ces quelques exemples de code ont, sont et seront utilisés pour accompagner mes
 
 [Sommaire](#sommaire)
 
+## Mes cours Développement Web, HTML, CSS, Php et leurs amis
+
+Sur UDEMY le cours [Développement Web](https://www.udemy.com/course/developpement-web-par-la-pratique/?referralCode=F83C08B0B7AFEFD400E0)
 
 ## vous avez aimé ?
 Pourquoi pas me remercier en m'offrant un café ?
