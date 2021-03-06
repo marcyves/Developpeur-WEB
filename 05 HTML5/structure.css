@@ -1,0 +1,38 @@
+body{
+    background-color: blue;
+    text-align: center;
+    padding: 24px;
+}
+header{
+    background-color: red;
+    margin: 24px;
+}
+nav{
+    background-color: green;
+    margin: 24px;
+}
+section{
+    background-color: aqua;
+    margin: 24px;
+    float: left;
+    width: 40%;
+    height: 600px;
+}
+article{
+    background-color: white;
+    margin: 24px;
+    height:200px;
+}
+aside{
+    background-color: blueviolet;
+    margin: 24px;
+}
+p{
+    background-color: yellow;
+    margin: 24px;
+}
+footer{
+    background-color: grey;
+    margin: 24px;
+    clear: both;
+}
