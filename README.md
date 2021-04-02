@@ -85,23 +85,23 @@ Ces quelques exemples de code ont été, sont et seront utilisés pour accompagn
 
 ### PHP
 
-    - [PHP Standard Recommandation](https://www.php-fig.org/psr/)
-    - [Composer](https://getcomposer.org/) pour gérer les dépendances d'un projet et les installer automatiquement.
-    - [PHPUnit](https://phpunit.de/)
-    - [Symfony](https://symfony.com/)
+- [PHP Standard Recommandation](https://www.php-fig.org/psr/)
+- [Composer](https://getcomposer.org/) pour gérer les dépendances d'un projet et les installer automatiquement.
+- [PHPUnit](https://phpunit.de/)
+- [Symfony](https://symfony.com/)
 
 ### HTML et CSS
 
-    - [Bootstrap](https://getbootstrap.com/)
-    - [Bootswatch](https://bootswatch.com/)
-    - [Shards](https://designrevision.com/downloads/shards/), Bootstrap, en mieux.
+- [Bootstrap](https://getbootstrap.com/)
+- [Bootswatch](https://bootswatch.com/)
+- [Shards](https://designrevision.com/downloads/shards/), Bootstrap, en mieux.
 
 ### Javascript
 
-    - [JQuery](https://jquery.com/)
-    - [Web developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)
-    - [Javascript from scratch](https://github.com/naomihauret/js-stack-from-scratch/)
-    - [Tutoriel Angular](https://www.dropbox.com/s/ad1va8ia9blf9mi/Capture%20d%27%C3%A9cran%202019-07-11%2020.44.57.png?dl=0)
+- [JQuery](https://jquery.com/)
+- [Web developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)
+- [Javascript from scratch](https://github.com/naomihauret/js-stack-from-scratch/)
+- [Tutoriel Angular](https://www.dropbox.com/s/ad1va8ia9blf9mi/Capture%20d%27%C3%A9cran%202019-07-11%2020.44.57.png?dl=0)
 
 [Sommaire](#sommaire)
 
