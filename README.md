@@ -31,13 +31,22 @@ Ces quelques exemples de code ont été, sont et seront utilisés pour accompagn
     - Le projet "Pizzeria" tel qu'expliqué dans le cours en ligne a donné lieu à une solution personnelle.
     Ce n'est pas LA bonne solution, c'est juste l'occasion de vous donner un exemple d'un mini site complet et du code qui va avec, une source d'inspiration.
 
-* `A - Projet Pizzeria HTML` un mini site statique pour présenter une pizzeria
-* `A - Projet Pizzeria PHP` un mini site dynamique pour présenter une pizzeria
-* `B - Morpion` un jeu de Morpion perfectible
-* `C - Projet Stelar` utilisation d'un template HTML
-* `D - Projet Symfony` comme son nom l'indique, démo de code
-* `E - Projet Angular ng7` mes expérimentations avec le tutoriel Angular
-* `E - Projet Angular todo-app` Une appli Angular
+#### Les projets HTML
+
+* `Pizzeria` un mini site statique pour présenter une pizzeria
+
+#### Les projets PHP
+
+* `Pizzeria` un mini site dynamique pour présenter une pizzeria
+* `Morpion` un jeu de Morpion perfectible
+* `Stelar` utilisation d'un template HTML
+* `Symfony` comme son nom l'indique, démo de code
+
+
+#### Les projets Angular
+
+* `Angular ng7` mes expérimentations avec le tutoriel Angular
+* `todo-app` Une appli Angular
 
 ## les Cours
 
