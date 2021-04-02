@@ -34,6 +34,7 @@ Ces quelques exemples de code ont été, sont et seront utilisés pour accompagn
 #### Les projets HTML
 
 * `Pizzeria` un mini site statique pour présenter une pizzeria
+* `Cooking`  un mini site pour présenter des recettes 
 
 #### Les projets PHP
 
