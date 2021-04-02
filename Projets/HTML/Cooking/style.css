@@ -1,12 +1,49 @@
 body{
     background-color: cornflowerblue;
+    background-image: url('salle.jpg');
+    background-repeat: x-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 12px 48px 12px 48px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-color: plum;
+    background-color: rgb(255, 42, 45);
+    background-image: url('napkin.png');
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+nav{
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: rgba(39, 167, 14, 0.5);
+    padding: 24px;
+}
+nav a{
+    background-color: red;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    background-color: white;
+    color: red;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+header p{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 main{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.878);
+    padding: 24px;
+    text-align: justify;
 }
 footer{
-    background-color: turquoise;
+    background-color: rgb(40, 206, 32);
+    padding: 24px;
 }
